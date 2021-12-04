@@ -1,0 +1,81 @@
+
+#header {
+    margin: 5%;
+    display: block;
+}
+
+#logo {
+    color: #222;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 42px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    font-style: normal;
+    display: inline-block;
+    line-height: 1.2em;
+}
+
+#topNav {
+    /*display: inline-block;*/
+    line-height: 26px;
+}
+
+.main-nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex end;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    font-family: 'Arima Madurai', cursive;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.main-nav li {
+    display: block;
+    padding: 1em;
+    color: darkgrey;
+}
+
+.main-nav li:hover {
+    color: black;
+}
+
+.resume-button {
+    text-decoration: none;
+    color: inherit;
+}
+
+.about {
+    font-family: 'Arima Madurai', cursive;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-left: 1em;
+}
+
+.prof-img {
+   /* display: inline-block; */
+   float: left;
+}
+
+.about-desc {}
+
+/*
+body {
+    font-family: Helvetica,arial,sans-serif;
+    font-weight: normal;
+    line-height: 1.6em;
+    font-size: 12px;
+    font-family: "proxima-nova";
+    font-size: 15px;
+    line-height: 1.8em;
+    text-transform: none;
+    text-decoration: none;
+    font-weight: 300;
+    font-style: normal;
+}
+*/
