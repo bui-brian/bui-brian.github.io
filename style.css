@@ -1,6 +1,6 @@
 
 #header {
-    margin: 5%;
+    margin: 5% 25em 5%;
     display: block;
 }
 
@@ -19,7 +19,6 @@
 }
 
 #topNav {
-    /*display: inline-block;*/
     line-height: 26px;
 }
 
@@ -51,31 +50,21 @@
 }
 
 .about {
+    margin-left: 12.5em;
+    margin-right: 15em;
+}
+
+.about-me {
     font-family: 'Arima Madurai', cursive;
     font-size: 30px;
     text-transform: uppercase;
-    margin-left: 1em;
+    margin-left: 6.5em;
 }
 
 .prof-img {
-   /* display: inline-block; */
    float: left;
 }
 
-.about-desc {}
-
-/*
-body {
-    font-family: Helvetica,arial,sans-serif;
-    font-weight: normal;
-    line-height: 1.6em;
-    font-size: 12px;
-    font-family: "proxima-nova";
-    font-size: 15px;
-    line-height: 1.8em;
-    text-transform: none;
-    text-decoration: none;
-    font-weight: 300;
-    font-style: normal;
+.about-desc {
+    margin-right: 12em;
 }
-*/
