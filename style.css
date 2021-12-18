@@ -1,10 +1,22 @@
 
+/* body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+} */
+
 #canvas {
     max-width: 1000px;
     margin: 10px auto;
     padding: 75px;
 }
 
+/* Start of Header section */
 #header {
     display: block;
 }
@@ -42,20 +54,23 @@
 .main-nav li {
     display: block;
     padding: 1em;
-    color: #595454;
+    color: #aaa;
 }
 
 .main-nav li:hover {
     color: black;
+    border-bottom: 1px solid black;
 }
 
 .resume-button {
     text-decoration: none;
     color: inherit;
 }
+/* End of Header section */
 
+/* Start of About section */
 .about {
-
+    padding-bottom: 50px;
 }
 
 .about-me {
@@ -64,6 +79,8 @@
     text-transform: uppercase;
     padding: 0;
 }
+
+/* .about-section {} */
 
 .prof-img {
    float: left;
@@ -74,3 +91,53 @@
 .about-desc {
     margin-left: 10em;
 }
+/* End of About section */
+
+/* Start of Projects section */
+
+.projects {
+    border-top: 1px solid black;
+    padding-top: 25px;
+}
+
+/* .two-projects {} */
+
+.project-card {
+    width: 275px;
+    height: 275px;
+    margin: 50px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+/* .project-card:hover {} */
+
+.project-img {
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+}
+
+.project-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+    /* object-fit: cover; */
+}
+
+.project-desc {
+    height: 50%;
+}
+
+.project-desc p:nth-of-type(1) {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.project-desc p:nth-of-type(2) {
+    color: gray;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+/* End of Projects section */
