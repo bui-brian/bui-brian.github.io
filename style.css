@@ -1,10 +1,11 @@
 
 #canvas {
-    
+    max-width: 1000px;
+    margin: 10px auto;
+    padding: 75px;
 }
 
 #header {
-    margin: 5% 25em 5%;
     display: block;
 }
 
@@ -54,15 +55,13 @@
 }
 
 .about {
-    margin-left: 23.5em;
-    margin-right: 15em;
+
 }
 
 .about-me {
     font-family: 'Arima Madurai', cursive;
     font-size: 30px;
     text-transform: uppercase;
-    margin-left: 1em;
     padding: 0;
 }
 
@@ -71,6 +70,5 @@
 }
 
 .about-desc {
-    margin-right: 12em;
     margin-left: 15em;
 }
