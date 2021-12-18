@@ -1,4 +1,8 @@
 
+#canvas {
+    
+}
+
 #header {
     margin: 5% 25em 5%;
     display: block;
@@ -25,7 +29,7 @@
 .main-nav {
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex end;
+    justify-content: flex-start;
     align-items: center;
     list-style: none;
     margin: 0;
@@ -37,7 +41,7 @@
 .main-nav li {
     display: block;
     padding: 1em;
-    color: darkgrey;
+    color: #595454;
 }
 
 .main-nav li:hover {
@@ -50,7 +54,7 @@
 }
 
 .about {
-    margin-left: 12.5em;
+    margin-left: 23.5em;
     margin-right: 15em;
 }
 
@@ -58,7 +62,8 @@
     font-family: 'Arima Madurai', cursive;
     font-size: 30px;
     text-transform: uppercase;
-    margin-left: 6.5em;
+    margin-left: 1em;
+    padding: 0;
 }
 
 .prof-img {
@@ -67,4 +72,5 @@
 
 .about-desc {
     margin-right: 12em;
+    margin-left: 15em;
 }
