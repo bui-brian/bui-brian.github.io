@@ -20,6 +20,7 @@ body {
 /* Start of Header section */
 #header {
     display: block;
+    margin-bottom: 60px;
 }
 
 #logo {
@@ -71,8 +72,9 @@ body {
 
 /* Start of About section */
 #about {
-    border-bottom: 1px solid black;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 150px;
 }
 
 .about-me {
@@ -93,11 +95,16 @@ body {
 .about-desc {
     margin-left: 10em;
 }
+
+.about-content {
+    margin: 50px 0;
+}
 /* End of About section */
 
 /* Start of Projects section */
 #projects {
-    padding-top: 30px;
+    margin-top: 50px;
+    padding-top: 20px;
 }
 
 .two-projects {
