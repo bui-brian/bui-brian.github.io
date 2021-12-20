@@ -94,7 +94,6 @@ body {
 /* End of About section */
 
 /* Start of Projects section */
-
 .projects {
     border-top: 1px solid black;
     padding-top: 25px;
@@ -156,3 +155,15 @@ body {
     margin-right: 10px;
 }
 /* End of Projects section */
+
+/* Start of Footer section */
+#footer {
+    margin-top: 100px;
+}
+
+#copyright {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #aaa;
+}
+/* End of Footer section */
