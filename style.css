@@ -63,14 +63,15 @@ body {
     border-bottom: 1px solid black;
 }
 
-.resume-button {
+.about-btn, .projects-btn, .resume-btn, .contact-btn {
     text-decoration: none;
     color: inherit;
 }
 /* End of Header section */
 
 /* Start of About section */
-.about {
+#about {
+    border-bottom: 1px solid black;
     padding-bottom: 50px;
 }
 
@@ -95,9 +96,8 @@ body {
 /* End of About section */
 
 /* Start of Projects section */
-.projects {
-    border-top: 1px solid black;
-    padding-top: 25px;
+#projects {
+    padding-top: 30px;
 }
 
 .two-projects {
@@ -120,7 +120,7 @@ body {
 */
 .project-card {
     width: 350px;
-    height: 350px;
+    height: 325px;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -178,17 +178,17 @@ a, a:hover {
 	text-decoration: none;
 }
 
-.socials, .socials ul, .socials li {
+#socials, .socials ul, .socials li {
     margin: 0;
     padding: 5px;
   }
 
-.socials li {
+#socials li {
     list-style: none outside none;
     display: inline-block;
 }
 
-.socials .fa {
+#socials .fa {
 	width: 40px;
     height: 28px;
 	color: #000;
@@ -201,7 +201,7 @@ a, a:hover {
 	-o-border-radius: 22px;
 }
 
-.socials .fa:hover {
+#socials .fa:hover {
 	color: #ffffff;
 	background-color: #000;
 	border: 1px solid #000;
