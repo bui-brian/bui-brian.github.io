@@ -80,7 +80,7 @@ html {
 #about {
     padding-top: 20px;
     border-bottom: 1px solid #aaa;
-    padding-bottom: 150px;
+    padding-bottom: 125px;
 }
 
 .about-me {
@@ -103,7 +103,10 @@ html {
 }
 
 .about-content {
-    margin: 50px 0;
+    margin: 30px 0;
+    font-family: 'Arima Madurai', sans-serif;
+    font-size: 17px;
+    line-height: 30px;
 }
 /* End of About section */
 
