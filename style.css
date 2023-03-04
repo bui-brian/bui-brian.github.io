@@ -1,0 +1,112 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+/*
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+*/
+html {
+    scroll-behavior: smooth;
+}
+
+.canvas {
+    max-width: 1000px;
+    margin: 10px auto;
+    padding: 0 75px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+/* Start of Header section */
+#header {
+    display: block;
+    margin-bottom: 60px;
+}
+
+#logo {
+    color: #222;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 42px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    font-style: normal;
+    display: inline-block;
+    line-height: 1.2em;
+}
+
+#topNav {
+    line-height: 26px;
+}
+
+.main-nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    font-family: 'Arima Madurai', cursive;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.main-nav li {
+    display: block;
+    padding: 1em;
+    color: #aaa;
+}
+
+.main-nav li:hover {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.about-btn, .projects-btn, .resume-btn, .contact-btn {
+    text-decoration: none;
+    color: inherit;
+}
+/* End of Header section */
+
+/* Start of About section */
+#about {
+    padding-top: 20px;
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 125px;
+}
+
+.about-me {
+    font-family: 'Arima Madurai', cursive;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+/* .about-section {} */
+
+.prof-img {
+   float: left;
+   max-width: 150px;
+   max-height: 150px;
+}
+
+.about-desc {
+    /* margin-left: 10em; */
+}
+
+.about-content {
+    margin: 30px 0;
+    font-family: 'Arima Madurai', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 30px;
+}
+/* End of About section */
