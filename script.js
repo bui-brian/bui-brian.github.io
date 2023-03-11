@@ -12,3 +12,8 @@ form.addEventListener("submit", function(e) {
         }
     }
 });
+
+function ToggleDarkMode() {
+    var element = document.body;
+    element.classList.toggle("dark");
+ }
