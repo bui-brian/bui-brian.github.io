@@ -5,11 +5,11 @@ html {
 }
 
 .canvas {
-    max-width: 1000px;
+    max-width: 850px;
     margin: 10px auto;
     padding: 0 75px;
-    padding-top: 50px;
-    padding-bottom: 25px;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .canvas2 {
@@ -23,7 +23,6 @@ html {
 /* Start of Header section */
 #header {
     display: block;
-    margin-bottom: 60px;
 }
 
 .dark {
@@ -33,6 +32,7 @@ html {
 
 .dark-btn {
     float: right;
+    margin-left: 2%;
 }
 
 #logo {
@@ -84,9 +84,8 @@ html {
 
 /* Start of About section */
 #about {
-    padding-top: 20px;
     border-bottom: 1px solid #aaa;
-    padding-bottom: 125px;
+    padding-bottom: 7.5%;
 }
 
 .about-me {
