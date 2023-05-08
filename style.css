@@ -20,6 +20,10 @@ html {
     padding-bottom: 25px;
 }
 
+p {
+    margin: 0;
+}
+
 /* Start of Header section */
 #header {
     display: block;
@@ -85,25 +89,20 @@ html {
 /* Start of About section */
 .about-me {
     font-family: 'Arima Madurai', cursive;
-    font-size: 30px;
+    font-size: 25px;
     text-transform: uppercase;
-    padding: 0;
-}
-
-/* .about-section {} */
-
-.prof-img {
-   float: left;
-   max-width: 150px;
-   max-height: 150px;
+    border-bottom: 1px solid #aaa;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .about-content {
-    margin: 30px 0;
+    margin: 15px 0;
     font-family: 'Arima Madurai', sans-serif;
     font-weight: bold;
     font-size: 17px;
     line-height: 30px;
+    padding-left: 25px;
 }
 /* End of About section */
 
