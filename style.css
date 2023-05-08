@@ -69,6 +69,10 @@ p {
     text-transform: uppercase;
 }
 
+.main-nav ul {
+    padding: 0;
+}
+
 .main-nav li {
     display: block;
     padding: 1em;
